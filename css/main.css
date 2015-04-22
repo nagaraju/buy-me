@@ -57,3 +57,11 @@ ul.rating {
 .rating .filled {
     color: #fd0;
 }
+
+.green {
+    background-color: green !important;
+}
+
+.yellow {
+    background-color: yellow !important;
+}
