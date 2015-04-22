@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html ng-app="buy-me">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>BUY ME</title>
+        <!-- Add CSS file here -->
+        <link rel="stylesheet" href = "http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+        <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    </head>
+    <body>
+
+        <!-- Third Party Libraries -->
+        <script type="text/javascript" src="scripts/vendor/jquery.js"></script>
+        <script type="text/javascript" src="scripts/vendor/angular.js"></script>
+        <script type="text/javascript" src="scripts/vendor/angular-route.js"></script>
+        <script type="text/javascript" src="scripts/vendor/bootstrap.js"></script>
+
+        <script type="text/javascript" src="scripts/app.js"></script>
+        <script type="text/javascript" src="scripts/controllers/ProductsCtrl.js"></script>
+        <script type="text/javascript" src="scripts/directives/RatingDirective.js"></script>
+
+        <!-- Main application content -->
+        <div class="container" ng-view=""></div>
+    </body>
+</html>
