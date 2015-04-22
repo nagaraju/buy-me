@@ -60,8 +60,13 @@ ul.rating {
 
 .green {
     background-color: green !important;
+    color: white !important;
+}
+
+.panel-title {
+    font-weight: bold;
 }
 
 .yellow {
-    background-color: yellow !important;
+    /*background-color: yellow !important;*/
 }
