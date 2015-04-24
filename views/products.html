@@ -1,11 +1,11 @@
-<div class="row">
+<div class="row" ng-init="getProductId()">
     <div class="panel panel-default">
         <div class="panel-heading clearfix">
-            <label>Bosch GSB 500 RE Kit Power & Hand Tool Kit</label>
+            <label>{{title}}</label>
         </div>
         <div class="panel-body">
             <div class="productImages">
-                <img src="css/images/1.jpeg" class="productImage"/>
+                <img src="css/images/{{image}}" class="productImage"/>
             </div>
             <br>
             Rating: <div star-rating rating-value="3" max="5" on-rating-selected="getSelectedRating(rating)"></div> <br>
@@ -19,7 +19,7 @@
                         </h4>
                     </div>
                     <div class="panel-body">
-                        <h5> 18 Months Extended Warrenty</h5>
+                        <h5>{{offers}}</h5>
                     </div>
                 </div>
                 <div class="panel panel-default">
@@ -29,8 +29,7 @@
                         </h4>
                     </div>
                     <div class="panel-body">
-                        WS Retail
-                        30 Days replacement guarantee
+                        {{sellers}}
                     </div>
                 </div>
                 <div class="panel panel-default">
@@ -40,7 +39,7 @@
                         </h4>
                     </div>
                     <div class="panel-body">
-                        Coming Soon
+                        {{info}}
                     </div>
                 </div>
                 <div class="panel panel-default">
@@ -50,8 +49,9 @@
                         </h4>
                     </div>
                     <div class="panel-body">
-                        <li>Light Weight</li>
-                        <li>Easy Drilling</li>
+                        {{specifications}}
+                        <!--<li>Light Weight</li>
+                        <li>Easy Drilling</li>-->
                     </div>
                 </div>
                 <div class="panel panel-default">
@@ -61,7 +61,7 @@
                         </h4>
                     </div>
                     <div class="panel-body">
-                        Coming Soon
+                        {{reviews}}
                     </div>
 
                 </div>

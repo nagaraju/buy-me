@@ -1,0 +1,37 @@
+[
+	{
+        "title": "Bosch GSB 500 RE Kit Power & Hand Tool Kit",
+        "previewImage": "1.jpeg",
+        "rating": "3",
+        "offers": "18 Months Extended Warrenty",
+        "sellers": "WS Retail",
+		"description":"XRE group for Toledo",
+        "specifications":"Light Weight",
+        "reviews": "COMMING SOON"
+	},
+    {
+        "title": "Numero Uno Men's Checkered Casual Shirt",
+        "previewImage": "2.jpeg",
+        "rating": "3",
+        "offers": "18 Months Extended Warrenty",
+        "sellers": "Chennai Shopping MALL",
+        "description":"Machine Wash Warm at 30°C, Do Not Dry Clean, Do Not Soak, Dry in Shade, Inside out",
+        "specifications":"Pattern - Checkered",
+        "reviews": "COMMING SOON"
+    },
+	{	"name":"CDVR Rack Testing 1",
+		"description":"DVR testing Redirector Groups"
+	},
+	{	"name":"ITAAS (TWC)",
+		"description":"XRE Groups for Itaas TWC"
+	},
+	{	"name":"Production_Preview_List 2",
+		"description":""
+	},
+	{	"name":"Xi3 List",
+		"description":""
+	},
+	{	"name":"TQM_RACK",
+		"description":""
+	}
+]
