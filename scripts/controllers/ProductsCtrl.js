@@ -65,6 +65,7 @@
             $scope.sellers = productObj['sellers'];
             $scope.specifications = productObj['specifications'];
             $scope.reviews = productObj['sellers'];
+            $scope.availaleAt = productObj['available'];
         };
 
         $interval($scope.getProductId, 30000);

@@ -10,9 +10,7 @@
             <br>
             Rating: <div star-rating rating-value="3" max="5" on-rating-selected="getSelectedRating(rating)"></div> <br>
             <div class="available"><label>Available on </label><br>
-                <img src="css/images/fk.jpg"/>
-                <img src="css/images/az.jpg"/>
-                <img src="css/images/sd.png"/>
+                <img ng-src="css/images/{{at}}.jpg" ng-repeat="at in availaleAt" />
             </div>
             <br>
             <div class="panel-group">
