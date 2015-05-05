@@ -19,11 +19,11 @@
 
 .bs-examples>div {
     height: 100px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .row>div {
-    border: 1px solid green;
+    /*border: 1px solid green;*/
 }
 
 .productImage {
@@ -69,4 +69,8 @@ ul.rating {
 
 .yellow {
     /*background-color: yellow !important;*/
+}
+
+.available>img {
+    width: 30%;
 }
