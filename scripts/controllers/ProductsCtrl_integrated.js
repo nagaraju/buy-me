@@ -4,7 +4,7 @@
     angular.module('buy-me').controller('ProductsCtrl', [ '$scope', '$http', '$interval',
         function($scope, Server, $interval) {
 
-		$scope.ramnum = 0;
+        $scope.ramnum = 0;
         var productIdUrl = 'mock/productId.json';
         var productsData = 'mock/products.json';
         $scope.productIds = [];
@@ -85,7 +85,7 @@
     exampleSocket.onmessage = function (event) {
         console.log("Server : "+event.data);
 		console.log(event.data.indexOf('Hello'));
-		if (event.data.indexOf('Hello') > 0) 
+		if (event.data.indexOf('Hello') > 0)
 		{
 			return;
 		}
