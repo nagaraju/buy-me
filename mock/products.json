@@ -20,5 +20,28 @@
         "specifications":"Pattern - Checkered",
         "reviews": "COMMING SOON",
         "available": ["fk","sd","az"]
+    },
+    {
+        "title": "Lenskart Round Frame",
+        "previewImage": "lenskart.jpg",
+        "rating": "3",
+        "offers": "10% offer on CITI Credit Card",
+        "sellers": "VINCENT CHASE",
+        "description":"Vincent Chase VC 6432 Black 1010 Wayfarer Eyeglasses",
+        "specifications":"Color-Black, Height-36mm",
+        "reviews": "Better than I expected. Chose the Anti-glare Thin lenses. Got it in 2 days. Good service.",
+        "available": ["fk","sd","az"]
+    },
+    {
+        "title": "",
+        "previewImage": ".jpeg",
+        "rating": "3",
+        "offers": "",
+        "sellers": "",
+        "description":"",
+        "specifications":"",
+        "reviews": "",
+        "available": ["fk","sd","az"]
     }
+
 ]

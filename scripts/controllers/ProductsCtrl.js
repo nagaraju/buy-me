@@ -26,15 +26,15 @@
         };
 
         var getProductIdSuccess = function (data, status, headers, config) {
-            console.debug("Product ID :: " + parseInt(data['id']));
+            console.debug("Product ID :: " + data['id']);
             if ($scope.productIds.length > 0) {
-                console.debug($scope.productIds[$scope.productIds.length-1] + " :: " + parseInt(data['id']))
-                if ($scope.productIds[$scope.productIds.length] === parseInt(data['id'])) {
+                console.debug($scope.productIds[$scope.productIds.length-1] + " :: " + data['id']);
+                if ($scope.productIds[$scope.productIds.length] === data['id']) {
                     console.debug('returning');
                     return;
                 }
             }
-            $scope.productIds.push(parseInt(data['id']));
+            $scope.productIds.push(data['id']);
             updateProductInfo();
         };
 
@@ -47,9 +47,13 @@
         };
 
         var getProductsDataSuccess = function (data, status, headers, config) {
-
-            updateProductDetails(data[$scope.productIds[$scope.productIds.length-1]]);
-
+            console.debug($scope.productIds[$scope.productIds.length-1] + "");
+            var proId = $scope.productIds[$scope.productIds.length-1];
+            for(var i = 0; i < data.length; i++) {
+                if(data[i]['title'] === proId) {
+                    updateProductDetails(data[i]);
+                }
+            }
         };
 
         var getProductsDataFailure = function (data, status, headers, config) {
@@ -70,5 +74,36 @@
 
         $interval($scope.getProductId, 30000);
 
+        /*console.log("My server IP: "+document.location.host);
+        var exampleSocket = new WebSocket("ws://10.0.0.6:8081", "protocolOne");
+
+        // When the connection is open, send some data to the server
+        exampleSocket.onopen = function (event) {
+            exampleSocket.send("Here's some text that the server is urgently awaiting!");
+            console.log("i am conectd to server.....");
+            window.setInterval(function () {exampleSocket.send("Ping")}, 900);
+        };
+
+        exampleSocket.onmessage = function (event) {
+            console.log("Server : "+event.data);
+            console.log(event.data.indexOf('Hello'));
+            if (event.data.indexOf('Hello') > 0) {
+                return;
+            }
+            if ($scope.productIds.length > 0) {
+                console.debug($scope.productIds[$scope.productIds.length-1] + " :: " + event.data)
+                if ($scope.productIds[$scope.productIds.length-1] === event.data) {
+                    console.debug('returning');
+                    return;
+                }
+            }
+            $scope.productIds.push(event.data);
+            updateProductInfo();
+        }
+
+        // Log errors
+        exampleSocket.onerror = function (error) {
+            console.log('WebSocket Error %0',  error);
+        };*/
     }]);
 })();
