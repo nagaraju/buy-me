@@ -22,8 +22,19 @@
         "available": ["fk","sd","az"]
     },
     {
+            "title": "",
+            "previewImage": ".jpg",
+            "rating": "3",
+            "offers": "",
+            "sellers": "",
+            "description":"",
+            "specifications":"",
+            "reviews": "",
+            "available": ["fk","sd","az"]
+        },
+    {
         "title": "Lenskart Round Frame",
-        "previewImage": "lenskart.jpg",
+        "previewImage": "lenskartr.jpg",
         "rating": "3",
         "offers": "10% offer on CITI Credit Card",
         "sellers": "VINCENT CHASE",
@@ -33,15 +44,113 @@
         "available": ["fk","sd","az"]
     },
     {
-        "title": "",
-        "previewImage": ".jpeg",
+        "title": "Jabong Summer Collection",
+        "previewImage": "jabong.jpg",
         "rating": "3",
-        "offers": "",
-        "sellers": "",
-        "description":"",
-        "specifications":"",
-        "reviews": "",
+        "offers": "HOME DELIVERY",
+        "sellers": "Polo T-Shirts",
+        "description":"Get this pack of-2 polo T-shirts for men by Duke and you will be on the profitable side",
+        "specifications":"Color-grey, Neck-Polo Neck, Fabric-Poly Cotton",
+        "reviews": "NO Reviews found",
+        "available": ["fk","ebay"]
+    },
+    {
+        "title": "Fab Furnish Furniture Collection",
+        "previewImage": "fab.jpg",
+        "rating": "3",
+        "offers": "Offer UPTO 60%",
+        "sellers": "Fab INDIA",
+        "description":"Solid Wood (Meranti) And Premium Fabric,",
+        "specifications":"Single Seater Sofa Height: 34 inches (85 cm), Length: 27 inches (68 cm), Width: 30 inches (75 cm), Seat Height: 17 inches (43 cm)",
+        "reviews": "NO REVIEWS",
+        "available": ["ebay"]
+    },
+    {
+        "title": "Philips Hair Dryer",
+        "previewImage": "philips.jpeg",
+        "rating": "3",
+        "offers": "EXTRA 10% OFF with Citibank Credit Cards",
+        "sellers": "WS RETIAL",
+        "description":"Utilizing 1000 watts of power, this powerful hair dryer generates gentle drying power and the optimum level of airflow to give you beautiful results with your hair.",
+        "specifications":"Narrow Concentrator for Focused Airflow, 2 Speed Settings",
+        "reviews": "I bought it because this was looking best in my budget but its not that good. I have really long and straight hairs and I wanted a hair dryer to take good care.",
+        "available": ["fk","az"]
+    },
+    {
+        "title": "Amazon Fashion accessories",
+        "previewImage": "azfashion.jpg",
+        "rating": "3",
+        "offers": "10% offer on CITI Credit Card",
+        "sellers": "VINCENT CHASE",
+        "description":"Vincent Chase VC 6432 Black 1010 Wayfarer Eyeglasses",
+        "specifications":"Color-Black, Height-36mm",
+        "reviews": "Better than I expected. Chose the Anti-glare Thin lenses. Got it in 2 days. Good service.",
+        "available": ["az"]
+    },
+    {
+        "title": "Paytm Recharge",
+        "previewImage": "paytm.jpg",
+        "rating": "3",
+        "offers": "HOME DELIVERY",
+        "sellers": "Polo T-Shirts",
+        "description":"Get this pack of-2 polo T-shirts for men by Duke and you will be on the profitable side",
+        "specifications":"Color-grey, Neck-Polo Neck, Fabric-Poly Cotton",
+        "reviews": "NO Reviews found",
+        "available": ["fk","ebay"]
+    },
+    {
+        "title": "Fab Funish bedlinen",
+        "previewImage": "fabfurnish.jpg",
+        "rating": "3",
+        "offers": "Offer UPTO 60%",
+        "sellers": "Fab INDIA",
+        "description":"Solid Wood (Meranti) And Premium Fabric,",
+        "specifications":"Single Seater Sofa Height: 34 inches (85 cm), Length: 27 inches (68 cm), Width: 30 inches (75 cm), Seat Height: 17 inches (43 cm)",
+        "reviews": "NO REVIEWS",
+        "available": ["ebay"]
+    },
+    {
+        "title": "Lenskart Sqaure Frame",
+        "previewImage": "lenskarts.jpg",
+        "rating": "3",
+        "offers": "10% offer on CITI Credit Card",
+        "sellers": "VINCENT CHASE",
+        "description":"Vincent Chase VC 6432 Black 1010 Wayfarer Eyeglasses",
+        "specifications":"Color-Black, Height-36mm",
+        "reviews": "Better than I expected. Chose the Anti-glare Thin lenses. Got it in 2 days. Good service.",
+        "available": ["fk","sd","az"]
+    },
+    {
+        "title": "Happily Unmarried Tea Cup",
+        "previewImage": "teacup.jpg",
+        "rating": "3",
+        "offers": "EXTRA 10% OFF with Citibank Credit Cards",
+        "sellers": "WS RETIAL",
+        "description":"Utilizing 1000 watts of power, this powerful hair dryer generates gentle drying power and the optimum level of airflow to give you beautiful results with your hair.",
+        "specifications":"Narrow Concentrator for Focused Airflow, 2 Speed Settings",
+        "reviews": "I bought it because this was looking best in my budget but its not that good. I have really long and straight hairs and I wanted a hair dryer to take good care.",
+        "available": ["fk","az"]
+    },
+    {
+        "title": "Jabong Spring Collection",
+        "previewImage": "jabong.jpg",
+        "rating": "3",
+        "offers": "HOME DELIVERY",
+        "sellers": "Polo T-Shirts",
+        "description":"Get this pack of-2 polo T-shirts for men by Duke and you will be on the profitable side",
+        "specifications":"Color-grey, Neck-Polo Neck, Fabric-Poly Cotton",
+        "reviews": "NO Reviews found",
+        "available": ["fk","ebay"]
+    },
+    {
+        "title": "Ola Cabs",
+        "previewImage": "ola.jpg",
+        "rating": "3",
+        "offers": "10% offer on CITI Credit Card",
+        "sellers": "VINCENT CHASE",
+        "description":"Vincent Chase VC 6432 Black 1010 Wayfarer Eyeglasses",
+        "specifications":"Color-Black, Height-36mm",
+        "reviews": "Better than I expected. Chose the Anti-glare Thin lenses. Got it in 2 days. Good service.",
         "available": ["fk","sd","az"]
     }
-
 ]
