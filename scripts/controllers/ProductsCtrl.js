@@ -47,11 +47,17 @@
         };
 
         var getProductsDataSuccess = function (data, status, headers, config) {
-            console.debug($scope.productIds[$scope.productIds.length-1] + "");
+            //console.debug($scope.productIds[$scope.productIds.length-1] + " Update Product success");
             var proId = $scope.productIds[$scope.productIds.length-1];
             for(var i = 0; i < data.length; i++) {
-                if(data[i]['title'] === proId) {
+                //console.debug("--"+data[i]['title'] +"-- :: === :: " + proId.toString().trim());
+                //console.debug("--"+data[i]['title'].length +"-- :: === :: " + proId.toString().trim().length);
+                if(proId.toString().indexOf(data[i]['title']) >= 0) {
+                    console.debug(proId + " FOUND");
                     updateProductDetails(data[i]);
+                    return;
+                } else {
+                    console.debug(proId + " NOT FOUND");
                 }
             }
         };
@@ -72,9 +78,9 @@
             $scope.availaleAt = productObj['available'];
         };
 
-        $interval($scope.getProductId, 30000);
+        //$interval($scope.getProductId, 30000);
 
-        /*console.log("My server IP: "+document.location.host);
+        console.log("My server IP: "+document.location.host);
         var exampleSocket = new WebSocket("ws://10.0.0.6:8081", "protocolOne");
 
         // When the connection is open, send some data to the server
@@ -85,25 +91,28 @@
         };
 
         exampleSocket.onmessage = function (event) {
+
             console.log("Server : "+event.data);
-            console.log(event.data.indexOf('Hello'));
-            if (event.data.indexOf('Hello') > 0) {
+            console.log("Server Data Length: "+event.data.toString().trim().length);
+            var data = event.data.toString();
+            //console.log(event.data.indexOf('Server Ping'));
+            if (event.data.indexOf('Server Ping') > 0) {
                 return;
             }
             if ($scope.productIds.length > 0) {
-                console.debug($scope.productIds[$scope.productIds.length-1] + " :: " + event.data)
+                //console.debug($scope.productIds[$scope.productIds.length-1] + " :: " + event.data);
                 if ($scope.productIds[$scope.productIds.length-1] === event.data) {
                     console.debug('returning');
                     return;
                 }
             }
-            $scope.productIds.push(event.data);
+            $scope.productIds.push(data);
             updateProductInfo();
         }
 
         // Log errors
         exampleSocket.onerror = function (error) {
             console.log('WebSocket Error %0',  error);
-        };*/
+        };
     }]);
 })();
