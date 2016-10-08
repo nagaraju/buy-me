@@ -1,0 +1,71 @@
+<div class="row" ng-init="getProductId()">
+    <div class="panel panel-default">
+        <div class="panel-heading clearfix">
+            <label>{{title}}</label>
+        </div>
+        <div class="panel-body">
+            <div class="productImages">
+                <img src="css/images/{{image}}" class="productImage"/>
+            </div>
+            <br>
+            Rating: <div star-rating rating-value="3" max="5" on-rating-selected="getSelectedRating(rating)"></div> <br>
+            <div class="available"><label>Available on </label><br>
+                <img ng-src="css/images/{{at}}.jpg" ng-repeat="at in availaleAt" />
+            </div>
+            <br>
+            <div class="panel-group">
+                <div class="panel panel-default">
+                    <div class="panel-heading green">
+                        <h4 class="panel-title">
+                            Offers On this Product
+                        </h4>
+                    </div>
+                    <div class="panel-body">
+                        <h5>{{offers}}</h5>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading yellow">
+                        <h4 class="panel-title">
+                            Seller Information
+                        </h4>
+                    </div>
+                    <div class="panel-body">
+                        {{sellers}}
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            Product Info
+                        </h4>
+                    </div>
+                    <div class="panel-body">
+                        {{info}}
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                        <h4 class="panel-title">
+                            Specifications
+                        </h4>
+                    </div>
+                    <div class="panel-body">
+                        {{specifications}}
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            User Reviews
+                        </h4>
+                    </div>
+                    <div class="panel-body">
+                        {{reviews}}
+                    </div>
+
+                </div>
+             </div>
+        </div>
+    </div>
+</div>
